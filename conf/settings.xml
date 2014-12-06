@@ -1,0 +1,26 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <localRepository/>
+    <interactiveMode/>
+    <usePluginRegistry/>
+    <offline/>
+    <pluginGroups/>
+    <servers/>
+    <mirrors/>
+    <proxies/>
+    <profiles>
+        <profile>
+            <id>liferay-scala</id>
+            <properties>
+                <liferay.auto.deploy.dir>/Users/robin/projects/experiments/liferay_scala/portal/liferay-portal-6.2-ce-ga2/deploy</liferay.auto.deploy.dir>
+                <liferay.app.server.deploy.dir>/Users/robin/projects/experiments/liferay_scala/portal/liferay-portal-6.2-ce-ga2/tomcat-7.0.42/webapps</liferay.app.server.deploy.dir>
+                <liferay.app.server.portal.dir>/Users/robin/projects/experiments/liferay_scala/portal/liferay-portal-6.2-ce-ga2/tomcat-7.0.42/webapps/ROOT</liferay.app.server.portal.dir>
+                <liferay.app.server.lib.global.dir>/Users/robin/projects/experiments/liferay_scala/portal/liferay-portal-6.2-ce-ga2/tomcat-7.0.42/lib/ext</liferay.app.server.lib.global.dir>
+                <liferay.version>6.2.1</liferay.version>
+            </properties>
+        </profile>
+    </profiles>
+    <activeProfiles/>
+</settings>
