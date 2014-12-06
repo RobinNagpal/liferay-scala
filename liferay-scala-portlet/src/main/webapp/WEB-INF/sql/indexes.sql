@@ -1,0 +1,1 @@
+create index IX_D6A149F9 on liferayscala_Employee (uuid_);
